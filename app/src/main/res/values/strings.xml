@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SwitchBetweenActivities</string>
+    <string name="title_activity_second_screen">SecondScreen</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

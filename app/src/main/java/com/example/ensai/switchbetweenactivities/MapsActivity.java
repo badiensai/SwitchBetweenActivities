@@ -38,7 +38,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         yBus = i.getDoubleExtra("coordBusy", 10.0);
         bus = i.getStringExtra("bus");
         String data=i.getStringExtra("data");
-        Toaster.toast(data);
+
+
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
@@ -60,6 +61,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
+        //Toaster.toast(xArret+" "+yArret);
+
         //mMap.setMyLocationEnabled(true);
 
         // Add a marker in Sydney and move the camera
@@ -77,7 +80,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
         //mMap.addMarker(new MarkerOptions().position(arret).title("Marker in Sydney"));
-        //mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(arret, 17));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ARRET, 17));
 
 
         /*LatLng BUS = new LatLng(xBus, yBus);
@@ -87,7 +90,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .position(BUS))
         ;*/
 
-        LatLng BUS = new LatLng(xBus, yBus);
+        /*LatLng BUS = new LatLng(xBus, yBus);
         mMap.addMarker(new MarkerOptions()
                 .position(BUS)
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));

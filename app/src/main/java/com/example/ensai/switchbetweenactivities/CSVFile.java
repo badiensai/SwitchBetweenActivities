@@ -39,4 +39,37 @@ public class CSVFile {
         }
         return resultat;
     }
+
+    public static String match(InputStream inputStream,int colonne1,int colonne2, String match1, String match2, int colonne3){
+        String resultat="";
+        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+        try {
+            String csvLine;
+            Boolean found=false;
+
+            while ((csvLine = reader.readLine()) != null&&!found) {
+                String[] row = csvLine.split(";");
+                if (row[colonne1].equals(match1)) {
+                    String destination=row[colonne2].split(" ")[0];
+                    if(destination.equals(match2)){
+                        resultat = row[colonne3];
+                        found=true;
+                    }
+
+                }
+            }
+        }
+        catch (IOException ex) {
+            throw new RuntimeException("Error in reading CSV file: "+ex);
+        }
+        finally {
+            try {
+                inputStream.close();
+            }
+            catch (IOException e) {
+                throw new RuntimeException("Error while closing input stream: "+e);
+            }
+        }
+        return resultat;
+    }
 }

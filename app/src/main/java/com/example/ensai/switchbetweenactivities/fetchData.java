@@ -1,6 +1,7 @@
 package com.example.ensai.switchbetweenactivities;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.app.Activity;
 
@@ -15,6 +16,10 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Arrays;
+import java.util.HashSet;
+
+import static xdroid.core.Global.getResources;
 
 /**
  * Created by Abhishek Panwar.
@@ -39,10 +44,40 @@ public class fetchData extends AsyncTask<Void,Void,Void> {
     double distance(double x1, double y1, double x2, double y2){
         return Math.sqrt((x1-x2)*(x1-x2) + (y1-y2)*(y1-y2));
     }
+
     @Override
     protected Void doInBackground(Void... voids) {
         try {
-            URL url = MainActivity.url;
+            //Requête HTTP avec l'arrêt correspondant choisit par l'utilisateur
+            Uri uri = Uri.parse("https://data.explore.star.fr/api/records/1.0/search/" +
+                    "?dataset=tco-bus-topologie-pointsarret-td&sort=nom&facet=nom")
+                    .buildUpon()
+                    .appendQueryParameter("refine.nom", arret)
+                    .build();
+            Uri uri2 =  Uri.parse("https://data.explore.star.fr/api/records/1.0/search/" +
+                    "?dataset=tco-bus-vehicules-position-tr&sort=idbus&facet=numerobus&facet" +
+                    "=etat&facet=nomcourtligne&facet=sens&facet=destination" )
+                    .buildUpon()
+                    .appendQueryParameter("refine.nomcourtligne", bus)
+                    .build();
+
+            Uri uri3 = Uri.parse("https://data.explore.star.fr/api/records/1.0/search/" +
+                    "?dataset=tco-bus-topologie-parcours-td&sort=idligne&facet=nomcourtligne" +
+                    "&facet=senscommercial&facet=type&facet=nomarretdepart" +
+                    "&facet=nomarretarrivee&facet=estaccessiblepmr")
+                    .buildUpon()
+                    .appendQueryParameter("refine.nomcourtligne", destination)
+                    .build();
+
+                URL url = new URL(uri.toString());
+                URL url2 = new URL(uri2.toString());
+                URL url3 = new URL(uri3.toString());
+
+
+
+                //String toast=url.toString();
+                //Toaster.toast(toast);
+
 
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = httpURLConnection.getInputStream();
@@ -53,9 +88,17 @@ public class fetchData extends AsyncTask<Void,Void,Void> {
                 data = data + line;
             }
 
-            /*url = MainActivity.url2;
+            //Récupérer les coordoonnées GPS de l'arrêt
+            JSONObject JO = new JSONObject(data);
+            JSONArray records = JO.getJSONArray("records");
+            JSONObject record = (JSONObject) records.get(0);
+            JSONObject fields = record.getJSONObject("fields");
+            JSONArray coordonnees = fields.getJSONArray("coordonnees");
+            xArret = coordonnees.getDouble(0);
+            yArret = coordonnees.getDouble(1); //TODO : choisir le bon arrêt (destination)
 
-            httpURLConnection = (HttpURLConnection) url.openConnection();
+
+            httpURLConnection = (HttpURLConnection) url2.openConnection();
             inputStream = httpURLConnection.getInputStream();
             bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
             line = "";
@@ -64,7 +107,27 @@ public class fetchData extends AsyncTask<Void,Void,Void> {
                 data2 = data2 + line;
             }
 
-            url = MainActivity.url3;
+
+            httpURLConnection = (HttpURLConnection) url3.openConnection();
+            inputStream = httpURLConnection.getInputStream();
+            bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+            line = "";
+            while (line != null) {
+                line = bufferedReader.readLine();
+                data3 = data3 + line;
+            }
+
+            //Récupérer les coordoonnées GPS de l'arrêt de destination
+            /*inputStream = getResources().openRawResource(R.raw.destination);
+            CSVFile csvFile = new CSVFile(inputStream);
+            String arretDestination=csvFile.match(inputStream,0,1,bus,destination,3);
+                //La destination ne correspond pas à un arrêt particulier, on en choisit un sur la ligne
+
+            uri = Uri.parse("https://data.explore.star.fr/api/records/1.0/search/" +
+                    "?dataset=tco-bus-topologie-pointsarret-td&sort=nom&facet=nom")
+                    .buildUpon()
+                    .appendQueryParameter("refine.nom", arretDestination)
+                    .build();
 
             httpURLConnection = (HttpURLConnection) url.openConnection();
             inputStream = httpURLConnection.getInputStream();
@@ -72,32 +135,19 @@ public class fetchData extends AsyncTask<Void,Void,Void> {
             line = "";
             while (line != null) {
                 line = bufferedReader.readLine();
-                data3 = data3 + line;*
-            }*/
-        }catch(MalformedURLException e){
-            e.printStackTrace();
-        }catch(IOException e){
-            e.printStackTrace();
-        }
-        return null;
-    }
-
-    @Override
-    protected void onPostExecute(Void aVoid){
-        super.onPostExecute(aVoid);
-
-        try {
-            //Récupérer les coordoonnées GPS de l'arrêt
-            JSONObject JO = new JSONObject(data);
-            /*JSONArray records = JO.getJSONArray("records");
-            JSONObject record = (JSONObject) records.get(0);
-            JSONObject fields = record.getJSONObject("fields");
-            JSONArray coordonnees = fields.getJSONArray("coordonnees");
-            xArret = coordonnees.getDouble(0);
-            yArret = coordonnees.getDouble(1); //TODO : choisir le bon arrêt (destination)
+                data = data + line;
+            }
+            JO = new JSONObject(data);
+            records = JO.getJSONArray("records");
+            record = (JSONObject) records.get(0);
+            fields = record.getJSONObject("fields");
+             coordonnees = fields.getJSONArray("coordonnees");
+            xDestination = coordonnees.getDouble(0);
+            yDestination = coordonnees.getDouble(1);
+            */
 
 
-            //Récupérer les coordoonnées GPS de l'arrêt de destination
+
             JO = new JSONObject(data3);
             int m=JO.getInt("nhits");
             records = JO.getJSONArray("records");
@@ -111,16 +161,17 @@ public class fetchData extends AsyncTask<Void,Void,Void> {
             }
 
 
-
+            //Coordoonnées de l'arrêt de destination
             coordonnees = fields.getJSONArray("geo_point_2d");
             xDestination =coordonnees.getDouble(0);
             yDestination = coordonnees.getDouble(1);
 
-            //Récupérer les coordoonnées GPS du bus le plus proche
+
+            //coordoonnées GPS du bus le plus proche
             JO = new JSONObject(data2);
             int n=JO.getInt("nhits");
             records = JO.getJSONArray("records");
-            String etat;
+            String etat,dest;
 
             Double xTemp=0.0,yTemp=0.0;
 
@@ -128,8 +179,9 @@ public class fetchData extends AsyncTask<Void,Void,Void> {
                 record = (JSONObject) records.get(i);
                 fields = record.getJSONObject("fields");
                 etat = fields.getString("etat");
+                dest = fields.getString("destination");
 
-                if (etat.equals("En ligne")&&fields.get("destination").equals(this.destination)) {
+                if (etat.equals("En ligne")&&dest.equals(this.destination)) {
                     coordonnees = fields.getJSONArray("coordonnees");
                     //Coordonnées du bus examiné
                     xTemp = coordonnees.getDouble(0);
@@ -137,24 +189,34 @@ public class fetchData extends AsyncTask<Void,Void,Void> {
 
                     if(//Distance entre le bus et l'arrêt la plus petite
                             distance(xArret,yArret,xTemp,yTemp)<distance(xArret,yArret,xBus,yBus)
-                           &&
-                        //Distance entre le bus et l'arrêt de destination plus grande
-                        //que celle entre l'arrêt de départ et l'arrêt traité
-                        //i.e. le bus n'a pas encore dépassé cet arrêt
-                        distance(xDestination,yDestination,xTemp,yTemp)
-                                >distance(xDestination,yDestination,xArret,yArret)
+                                    &&
+                                    //Distance entre le bus et l'arrêt de destination plus grande
+                                    //que celle entre l'arrêt de départ et l'arrêt traité
+                                    //i.e. le bus n'a pas encore dépassé cet arrêt
+                                    distance(xDestination,yDestination,xTemp,yTemp)
+                                            >distance(xDestination,yDestination,xArret,yArret)
                             ){
                         xBus=xTemp;
                         yBus=yTemp;
                     }
-                    //TODO : choisir les bons bus (bonne destination)
                 }
             }
-        */
 
-        } catch (JSONException e) {
+            } catch (MalformedURLException e){
+                e.printStackTrace();
+
+        }catch(IOException e){
             e.printStackTrace();
-        } finally {
+        }catch (JSONException e){
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    @Override
+    protected void onPostExecute(Void aVoid){
+        super.onPostExecute(aVoid);
+
             //Starting a new Intent
             Intent nextScreen = new Intent(a.getApplicationContext(), MapsActivity.class);
 
@@ -165,7 +227,7 @@ public class fetchData extends AsyncTask<Void,Void,Void> {
             nextScreen.putExtra("coordBusx", xBus);
             nextScreen.putExtra("coordBusy", yBus);
             nextScreen.putExtra("bus", bus);
-
+        nextScreen.putExtra("data", data);
             //Log.e("n", inputArret.getText()+"."+ inputBus.getText());
 
 
@@ -180,5 +242,4 @@ public class fetchData extends AsyncTask<Void,Void,Void> {
 
 
 
-    }
 }

@@ -1,0 +1,472 @@
+Ligne (nom court),Libellé long,Point d'arrêt de départ (nom)
+C2,Saint-Grégoire (Champ Daguet) -> Rennes (Haut Sancé),Champ Daguet
+C3,Rennes (Saint-Laurent) -> Rennes (Henri Fréville),Saint-Laurent
+C6,Cesson-Sévigné (Rigourdière) -> Rennes -> Saint-Jacques-de-la-Lande (Morinais),Rigourdière
+C6,Saint-Jacques-de-la-Lande (Morinais) -> Rennes -> Cesson-Sévigné (Rigourdière),Morinais
+11,Rennes (Jardin Moderne) -> Rennes (République),Jardin Moderne
+11,Vezin-le-Coquet (ZI Ouest) -> Rennes (La Poterie),ZI Ouest
+12,Saint-Grégoire (Grand Quartier) -> Rennes (La Poterie),Grand Quartier
+13,Rennes (Bréquigny Piscine) -> Rennes (Cleunay),Bréquigny Piscine
+35,Cesson-Sévigné (Champs Blancs) -> Cesson-Sévigné (Cesson Gare),Champs Blancs
+36,Rennes (Place Hoche) -> Saint-Grégoire (Edonia),Place Hoche
+37,Rennes (Henri Fréville) -> Saint-Jacques-de-la-Lande (Morinais),Henri Fréville
+50,Rennes (Moulin de Joué) -> Thorigné-Fouillard (Landelles),Moulin de Joué
+52,La Chapelle-des-Fougeretz (Besneraie) -> Rennes (Villejean-Université),Besneraie
+52,Rennes (République) -> Montgermont -> La Chapelle-des-Fougeretz -> Gévezé (Cheval Blanc),République
+52,Saint-Gilles (Ile des Bois) -> Pacé -> Rennes -> Montgermont -> La Chapelle-des-Fougeretz (Besneraie),Ile des Bois
+53,Rennes (Colin) -> Rennes (République),Colin
+53,La Chapelle-Thouarault (Ville aux Archers) ->  L'Hermitage -> Vezin-le-Coquet -> Rennes (République),Ville aux Archers
+55,Mordelles (Mordelles Pâtis) -> Rennes (Charles de Gaulle),Mordelles Pâtis
+57,Rennes (République) -> Saint-Jacques-de-la-Lande -> Bruz (Bruz Centre) via Porte de Ker-Lann,République
+61,Rennes (Henri Fréville) -> Noyal-Châtillon-sur-Seiche -> Saint-Erblon -> Orgères -> Bourgbarré (Centre de Loisirs),Henri Fréville
+61,Bourgbarré (Centre de Loisirs) -> Orgères -> Saint-Erblon -> Noyal-Châtillon-sur-Seiche -> Rennes (Henri Fréville),Centre de Loisirs
+67,Rennes (République) -> Brécé (Anjou) via Cesson Gare,République
+67,Rennes (République) -> Brécé (Anjou) via Champelé,République
+71,Chevaigné (Pommiers) -> Rennes (Place Hoche),Pommiers
+73,Corps-Nuds (Corps-Nuds Gare) -> Saint-Armel -> Vern-sur-Seiche -> Rennes (La Poterie) via Champ Martin,Corps-Nuds Gare
+78,Rennes (Villejean-Université) -> Saint-Grégoire -> Betton (Betton Centre),Villejean-Université
+80,Rennes (Henri Fréville) -> Laillé (Gingouillère),Henri Fréville
+80,Laillé (Gingouillère) -> Rennes (Henri Fréville),Gingouillère
+62,Vern-sur-Seiche (Croix Malinge) -> Rennes (La Poterie),Croix Malinge
+62,Corps-Nuds (Corps-Nuds Gare) -> Saint-Armel -> Vern-sur-Seiche -> Rennes (La Poterie),Corps-Nuds Gare
+65,Parthenay-de-Bretagne (Parthenay Fontaine) -> Pacé (Pacé Cimetière),Parthenay Fontaine
+65,Parthenay-de-Bretagne (Parthenay Fontaine) -> Pacé -> Rennes (Villejean-Université),Parthenay Fontaine
+72,Rennes (Henri Fréville) -> Chartres-de-Bretagne -> Pont-Péan -> Laillé (Gingouillère),Henri Fréville
+73,Corps-Nuds (Corps-Nuds Gare) -> Saint-Armel -> Vern-sur-Seiche -> Rennes (La Poterie),Corps-Nuds Gare
+72,Pont-Péan (Bois Esnault) -> Rennes (Henri Fréville),Bois Esnault
+67,Cesson-Sévigné (Rigourdière) -> Rennes (République),Rigourdière
+222,Betton (Champ Devant) -> Chevaigné (Pommiers),Champ Devant
+223,Saint-Grégoire (Jean-Paul II) -> Betton -> Chevaigné (Pommiers) via Haye Renaud Gare,Jean-Paul II
+224,La Chapelle-des-Fougeretz (Besneraie) -> Saint-Grégoire (Jean-Paul II),Besneraie
+225,Saint-Grégoire (Jean-Paul II) -> Pacé (Pie Neuve),Jean-Paul II
+226,Montgermont (Montgermont Mairie) -> Pacé (Centre scolaire Pacé),Montgermont Mairie
+226,La Chapelle-des-Fougeretz (Besneraie) -> Pacé (Centre scolaire Pacé),
+227,Pacé (Centre scolaire Pacé) -> Vezin-le-Coquet (Lion d'Or),Centre scolaire Pacé
+228,Rennes (Lycée Mendès France) -> Montgermont -> La Chapelle-des-Fougeretz (Besneraie),Lycée Mendes France
+235,Orgères (L'Hermitière Village) -> Pont-Péan (Mouton Blanc),L'Hermitière Village
+236,Pacé (Centre scolaire Pacé) -> Parthenay-de-Bretagne (Parthenay Fontaine),Centre scolaire Pacé
+236,Pacé (Centre scolaire Pacé) -> Parthenay-de-Bretagne -> Clayes (Clayes Centre),Centre scolaire Pacé
+236,Clayes (Clairville) -> Parthenay-de-Bretagne -> Pacé (Centre scolaire Pacé),Clairville
+237,Chavagne (Croix Blanche) -> Le Rheu (Lycée Monod),Croix Blanche
+238,Le Rheu (Lycée Monod) -> La Chapelle-Thouarault (Ville aux Archers),Lycée Monod
+239,Le Rheu (Lycée Monod) -> Mordelles (Mordelles Pâtis),Lycée Monod
+241,Mordelles (Collège St-Yves) -> Chavagne (Croix Blanche),Collège St-Yves
+Ts4,Bruz (Anita Conti) -> Bourgbarré (La Fretais),Anita Conti
+Ts5,Bourgbarré (Sept Fours) -> Bruz (Aire du 8 Mai),Sept Fours
+Ts8,Mordelles (Mordelles Pâtis) -> Bruz (Brossolette),Mordelles Pâtis
+Ts9,Bruz (Anita Conti) -> Laillé (Gripay),Anita Conti
+Ts10,Laillé (Le Cleux) -> Bruz (Anita Conti),Le Cleux
+Ts13,Bruz (Aire du 8 Mai) -> Chartres-de-Bretagne (Vieux Bourg),Aire du 8 Mai
+Ts37,La Chapelle-Thouarault (Eglise) -> Mordelles (Collège St-Yves),Eglise
+Ts46,Pacé (Centre scolaire Pacé) -> Pacé (Bas Sommier),Centre scolaire Pacé
+Ts56,Orgères (Collège Récipon) -> Laillé (Gripay),Collège Récipon
+Ts56,Laillé (Couais) -> Orgères (Collège Récipon),Couais
+Ts82,Chartres-de-Bretagne (Collège Pôle Sud) -> Saint-Erblon (Leuzières),Collège Pôle Sud
+Ts91,Rennes (Kennedy Guyenne) -> Vezin-le-Coquet (Vallée),Kennedy Guyenne
+Ts91,Vezin-le-Coquet (Vallée) -> Rennes (Collège Rosa-Parks),Vallée
+91,Bruz (Cicé Blossac) -> Bruz (Bruz Centre),Cicé Blossac
+91,Bruz (Bruz Centre) -> Noyal-Châtillon-sur-Seiche (Petite Saudrais),Bruz Centre
+N1,Rennes (Clos Courtel) -> Rennes (République),Clos Courtel
+151ex,Betton (Champ Devant) -> Rennes (Place Hoche),Champ Devant
+151ex,Rennes (Place Hoche) -> Betton (Champ Devant),Hoche
+152ex,Rennes (Lycée Basch) -> Pacé -> Saint-Gilles (Ile des Bois),Lycée Basch
+153ex,L'Hermitage (L'Hermitage Centre) -> Rennes (République),L'Hermitage Centre
+154ex,Rennes (République) -> Le Rheu -> Cintré (Chêne Vert),République
+155ex,Rennes (République) -> Mordelles (Mordelles Pâtis),République
+157ex,Rennes (République) -> Bruz (Bruz Centre),République
+168ex,Rennes (Villejean-Université) -> Gévezé (Cheval Blanc),Villejean-Université
+200,Acigné (Timonière) -> Rennes (Assomption),Timonière
+201,Thorigné-Fouillard (Landelles) -> Rennes (Assomption),Landelles
+204,Saint-Grégoire (Champ Daguet) -> Rennes (Clotilde Vautier),Champ Daguet
+205,Rennes (Villejean-Université) -> Rennes (Lycée St-Exupéry),Villejean-Université
+206,Rennes (Joliot-Curie) -> Cesson-Sévigné (Cormier),Joliot-Curie
+208,Saint-Grégoire (MFR Rabinardières) -> Rennes (Gares),MFR Rabinardières
+212,Saint-Erblon (Champ Mulon) -> Rennes (Coubertin),Champ Mulon
+213,Rennes (Coubertin) -> Bourgbarré (Centre de Loisirs),Coubertin
+214,Cesson-Sévigné (Lycée Ozanam) -> Rennes (La Poterie),Saint-Etienne
+214,Rennes (La Poterie) -> Cesson-Sévigné (Lycée Ozanam),La Poterie
+221,Thorigné-Fouillard (Portail) -> Cesson-Sévigné (Lycée Sévigné),Portail
+157ex,Bruz (Bruz Centre) -> Rennes (République),Bruz Centre
+161ex,Rennes (Henri Fréville) -> Noyal-Châtillon-sur-Seiche -> Saint-Erblon -> Bourgbarré (Centre de Loisirs),Henri Fréville
+168ex,Gévezé (Cheval Blanc) -> Rennes (Villejean-Université),Cheval Blanc
+C1,Rennes (République) -> Cesson-Sévigné (Champs Blancs),République
+C4,Rennes (Plaine de Baud) -> Rennes (République),Plaine de Baud
+C4,Rennes (République) -> Rennes (ZA Saint-Sulpice),République
+9,Rennes (Cleunay) -> Rennes (Saint-Laurent),Cleunay
+11,Rennes (Saint-Saëns) -> Vezin-le-Coquet (ZI Ouest),Saint-Saëns
+11,Rennes (Roazhon Park) -> Rennes (La Poterie),Roazhon Park
+13,Chantepie (Cucé) -> Rennes (Cleunay),Cucé
+13,Saint-Jacques-de-la-Lande (Gautrais) -> Rennes (Henri Fréville),Gautrais
+14,Rennes (Clos Courtel) -> Rennes (Roazhon Park),Clos Courtel
+14,Rennes (Roazhon Park) -> Rennes (Clos Courtel),Stade Rennais
+31,Cesson-Sévigné (Base de Loisirs) -> Rennes (Villejean-Churchill),Base de Loisirs
+51,Betton (Champ Devant) -> Rennes (Place Hoche) via Gentilhommière,Champ Devant
+51,Rennes (Place Hoche) -> Betton (Champ Devant) via Gentilhommière,Hoche
+53,Rennes (République) -> Vezin-le-Coquet -> L'Hermitage -> La Chapelle-Thouarault (Ville aux Archers) via CAT La Hautière,République Pré Botté
+54,Le Rheu (L'Autre Lieu) -> Cintré (Chêne Vert),Brassens
+55,Le Verger (Le Verger Eglise) -> Mordelles -> Rennes (Charles de Gaulle),Le Verger Eglise
+57,Rennes (République) -> Saint-Jacques-de-la-Lande -> Bruz (Lavoisier),République
+41ex,Rennes (Gares) -> Cesson-Sévigné (Champs Blancs),Gares
+44,Rennes (République) -> Rennes (Joliot-Curie),République
+50,Thorigné-Fouillard (Landelles) -> Rennes (République) via Placis Vert,Landelles
+38,Cesson-Sévigné (Monniais) -> Cesson-Sévigné (Ménouriais),Monniais
+38,Cesson-Sévigné (Ménouriais) -> Cesson-Sévigné (Monniais),Ménouriais
+40ex,Rennes (République) -> Rennes (Clos Courtel),République
+57,Bruz (Lavoisier) -> Saint-Jacques-de-la-Lande -> Rennes (République),Lavoisier
+57,Bruz (Bruz Centre) -> Saint-Jacques-de-la-Lande -> Rennes (République),Bruz Centre
+61,Rennes (Henri Fréville) -> Noyal-Châtillon-sur-Seiche -> Saint-Erblon (Parc d'Activités),Henri Fréville
+62,Rennes (La Poterie) -> Vern-sur-Seiche -> Nouvoitou -> Saint-Armel -> Corps-Nuds (Corps-Nuds Gare),
+63,Bruz (Pont-Réan) -> Rennes (Gares),Pont-Réan
+63,Noyal-Châtillon-sur-Seiche (Janais) -> Rennes (Gares),Janais
+65,Rennes (Lycée Basch) -> Rennes (Villejean-Université),Lycée Basch
+67,Brécé (Anjou) -> Rennes (République) via Cesson Gare,Anjou
+67,Rennes (République) -> Brécé (Anjou),République
+67,Rennes (République) -> Cesson-Sévigné (Rigourdière),République
+72,Rennes (République) -> Chartres-de-Bretagne -> Pont-Péan -> Laillé (Gingouillère),République
+72,Rennes (Henri Fréville) -> Chartres-de-Bretagne -> Pont-Péan (Bois Esnault),Henri Fréville
+72,Rennes (Coubertin) -> Rennes (Henri Fréville),Coubertin
+72,Pont-Péan (Bois Esnault) -> Chartres-de-Bretagne -> Rennes (Henri Fréville),Bois Esnault
+72,Pont-Péan (Bois Esnault) -> Chartres-de-Bretagne -> Rennes (Henri Fréville) via Touche Tizon et Mivoie,Bois Esnault
+72,Laillé (Gingouillère) -> Pont-Péan -> Chartres-de-Bretagne -> Rennes (Henri Fréville),Gingouillère
+74,Rennes (Henri Fréville) -> Orgères -> Bourgbarré (Centre de Loisirs),Henri Fréville
+74,Rennes (Henri Fréville) -> Orgères -> Bourgbarré (Moc Souris),Henri Fréville
+74,Orgères (Ormes Blanches) -> Rennes (Henri Fréville),Ormes Blanches
+74,Bourgbarré (Sept Fours) -> Orgères (Surcouf),Sept Fours
+75,Nouvoitou (Parc des Sports) -> Vern-sur-Seiche (La Poste),Parc des Sports
+75,Nouvoitou (Crotigné) -> Nouvoitou (Langlois),Crotigné
+75,Rennes (La Poterie) -> Nouvoitou (L'Ourmais),La Poterie
+77,Rennes (Villejean-Université) -> Pacé (Pâtis Roussel) via Rive Ouest,Villejean-Université
+77,Pacé (Pâtis Roussel) -> Rennes (Villejean-Université),Pâtis Roussel
+79,Rennes (Henri Fréville) -> Pont-Péan -> Laillé (Gingouillère),Henri Fréville
+81,Rennes (Villejean-Université) -> Pacé -> Saint-Gilles -> Clayes -> Romillé (Romillé Collège) via Ile des Bois,Villejean-Université
+82,Rennes (Villejean-Université) -> Romillé -> Langan -> La Chapelle-Chaussée -> Bécherel -> Miniac-sous-Bécherel (Miniac Eglise),Villejean-Université
+91,Bruz (Cicé Blossac) -> Chartres-de-Bretagne (Collège Pôle Sud),Cicé Blossac
+91,Bruz (Pont-Réan) -> Chartres-de-Bretagne -> Noyal-Châtillon-sur-Seiche (Petite Saudrais),Pont-Réan
+161ex,Bourgbarré (Centre de Loisirs) -> Saint-Erblon -> Noyal-Châtillon-sur-Seiche -> Rennes (Coubertin),Centre de Loisirs
+N2,Rennes (République) -> Rennes (Gayeulles),République
+153ex,Rennes (République Pré Botté) -> L'Hermitage (L'Hermitage Centre),République Pré Botté
+77,Pacé (Pâtis Roussel) -> Rennes (Villejean-Université) via Rive Ouest,Pâtis Roussel
+N2,Rennes (Gayeulles) -> Rennes (Painlevé),Gayeulles
+N2,Rennes (La Poterie) -> Rennes (Gayeulles),La Poterie
+231,Bruz (Anita Conti) -> Pont-Péan -> Laillé (Gingouillère) via Aire du 8 Mai,Anita Conti
+231,Pont-Péan (Mouton Blanc) -> Bruz (Anita Conti),Mouton Blanc
+231,Laillé (Gingouillère) -> Pont-Péan -> Bruz (Anita Conti),Gingouillère
+233,Bourgbarré (Centre de Loisirs) -> Saint-Erblon (Collège Saint-Paul) via La Basse Erable,Centre de Loisirs
+233,Saint-Erblon (Collège Saint-Paul) -> Orgères -> Bourgbarré (Centre de Loisirs),
+234,Laillé (Gingouillère) -> Orgères (Collège Récipon) via Orée du Bois,Gingouillère
+235,Pont-Péan (Mouton Blanc) -> Orgères (L'Hermitière Village),Mouton Blanc
+236,Parthenay-de-Bretagne (Parthenay Fontaine) -> Pacé (Centre scolaire Pacé),Parthenay Fontaine
+239,Mordelles (Mordelles Pâtis) -> Le Rheu (Lycée Monod),Mordelles Pâtis
+240,L'Hermitage (L'Hermitage Centre) -> Le Rheu (Lycée Monod),L'Hermitage Centre
+240,Le Rheu (Collège Brassens) -> L'Hermitage -> Saint-Gilles (Ile des Bois),Collège Brassens
+Ts1,Bruz (Aire du 8 Mai) -> Noyal-Châtillon-sur-Seiche (Noyal La Touche),Aire du 8 Mai
+Ts3,Bruz (Aire du 8 Mai) -> Noyal-Châtillon-sur-Seiche (Bray),Aire du 8 Mai
+Ts7,Bruz (Aire du 8 Mai) -> Bourgbarré (Les Cruaux),Aire du 8 Mai
+Ts36,Cintré (Pilais Barbais) -> Mordelles (Morvan Lebesque),Pilais Barbais
+Ts43,Saint-Gilles (Etang de la Motte) -> Pacé (Centre scolaire Pacé),Etang de la Motte
+202,Chevaigné (Pommiers) -> Betton -> Rennes (Assomption),Pommiers
+204,Saint-Grégoire (Champ Daguet) -> Rennes (Assomption),Champ Daguet
+207,Cesson-Sévigné (Lycée Ozanam) -> Rennes (Gares),Lycée Ozanam
+207,Rennes (Gares) -> Cesson-Sévigné (Lycée Ozanam),
+211,Rennes (Collège Cleunay) -> Chavagne (Croix Blanche),Collège Cleunay
+211,Chavagne (Croix Blanche) -> Rennes (Collège Cleunay),Croix Blanche
+212,Noyal-Châtillon-sur-Seiche (Molène) -> Rennes (Coubertin),Molène
+215,Rennes (Lycée Chateaubriand) -> Rennes (Villejean-Université),Lycée Chateaubriand
+221,Cesson-Sévigné (Château de Vaux) -> Thorigné-Fouillard -> Cesson-Sévigné (Lycée Sévigné),Château de Vaux
+223,Chevaigné (Pommiers) -> Betton -> Saint-Grégoire (Jean-Paul II),Pommiers
+225,Pacé (Pâtis Roussel) -> Saint-Grégoire (Jean-Paul II),Pâtis Roussel
+226,Gévezé (Cheval Blanc) -> La Chapelle-des-Fougeretz -> Pacé (Centre scolaire Pacé),Cheval Blanc
+226,Pacé (Centre scolaire Pacé) -> La Chapelle-des-Fougeretz (Besneraie),Centre scolaire Pacé
+226,Pacé (Centre scolaire Pacé) -> La Chapelle-des-Fougeretz -> Gévezé (Cheval Blanc),Centre scolaire Pacé
+228,La Chapelle-des-Fougeretz (Besneraie) -> Montgermont -> Rennes (Lycée Mendès France),
+RPI-1,La Chapelle-Chaussée (Chapelle-Chaussée) -> La Chapelle-Chaussée (Chapelle-Chaussée),Chapelle-Chaussée
+Ts81,Noyal-Châtillon-sur-Seiche (La Garde) -> Chartres-de-Bretagne (Collège Pôle Sud),La Garde
+Ts81,Chartres-de-Bretagne (Collège Pôle Sud) -> Noyal-Châtillon-sur-Seiche (La Garde),Collège Pôle Sud
+API,Rennes (Etangs d'Apigné) -> Rennes (République),Etangs d'Apigné
+TTZ,Rennes (La Salle) -> Noyal-Châtillon-sur-Seiche (Touche Tizon),La Salle
+TTZ,Rennes (Patton) -> Noyal-Châtillon-sur-Seiche (Touche Tizon),Patton
+Ts52,Saint-Erblon (Collège Saint-Paul) -> Noyal-Châtillon-sur-Seiche (Noyal La Touche),Collège Saint-Paul
+Ts61,Cesson-Sévigné (Chalotais) -> Cesson-Sévigné (Prieuré Forge),Chalotais
+Ts61,Cesson-Sévigné (Cesson Piscine) -> Cesson-Sévigné (Prieuré Forge),Cesson Piscine
+Ts66,Le Rheu (Collège Brassens) -> Saint-Gilles (Ile des Bois),Collège Brassens
+C1,Cesson-Sévigné (Champs Blancs) -> Rennes (République),Champs Blancs
+C3,Rennes (Henri Fréville) -> Rennes (Saint-Laurent),Henri Fréville
+C4,Rennes (ZA Saint-Sulpice) -> Saint-Grégoire (Grand Quartier),ZA Saint-Sulpice
+C4,Rennes (République) -> Rennes (Plaine de Baud),République
+C4,Saint-Grégoire (Grand Quartier) -> Rennes (ZA Saint-Sulpice),Grand Quartier
+C5,Rennes (Lycée Bréquigny) -> Rennes (Patton),Lycée Bréquigny
+C6,Saint-Jacques-de-la-Lande (Gaité) -> Rennes (République),Gaité
+13,Rennes (Henri Fréville) -> Saint-Jacques-de-la-Lande (Gautrais),Henri Fréville
+32,Rennes (Triangle) -> Rennes (Clos Courtel),Triangle
+40ex,Rennes (Clos Courtel) -> Rennes (République),Clos Courtel
+41ex,Cesson-Sévigné (Champs Blancs) -> Rennes (Gares),Champs Blancs
+62,Rennes (La Poterie) -> Vern-sur-Seiche -> Saint-Armel -> Corps-Nuds (Corps-Nuds Gare),
+67,Brécé (Anjou) -> Rennes (République),Anjou
+68,Gévezé (Cheval Blanc) -> Rennes (Villejean-Université),Cheval Blanc
+74,Rennes (Henri Fréville) -> Orgères (Ormes Blanches),Henri Fréville
+54,Le Rheu (Lycée Monod) -> Rennes (Charles de Gaulle),Lycée Monod
+54,Le Verger (Le Verger Eglise) -> Mordelles -> Le Rheu -> Rennes (Charles de Gaulle),Le Verger Eglise
+54,Cintré (Chêne Vert) -> Le Rheu -> Rennes (Charles de Gaulle),Chêne Vert
+52,La Chapelle-des-Fougeretz (Besneraie) -> Montgermont -> Rennes -> Pacé -> Saint-Gilles (Ile des Bois) via Quatre Vents,Besneraie
+53,Rennes (République) -> Rennes (Colin),République Pré Botté
+57,Bruz (Corbières) -> Bruz (Bruz Centre),Corbières
+159ex,Rennes (Henri Fréville) -> Bruz (Bruz Gare),Henri Fréville
+159ex,Bruz (Bruz Gare) -> Rennes (Henri Fréville),Bruz Gare
+172ex,Rennes (Henri Fréville) -> Chartres-de-Bretagne (Parc de Loisirs),Henri Fréville
+173ex,Corps-Nuds (Corps-Nuds Gare) -> Rennes (La Poterie),Corps-Nuds Gare
+201,Rennes (Assomption) -> Thorigné-Fouillard (Landelles),Assomption
+202,Rennes (Assomption) -> Betton -> Chevaigné (Pommiers),Assomption
+204,Rennes (Assomption) -> Saint-Grégoire (Champ Daguet) via Clotilde Vautier,Assomption
+213,Rennes (Coubertin) -> Orgères (Surcouf),Coubertin
+216,Cesson-Sévigné (Stade Dézerseul) -> Rennes (Joliot-Curie),Base de Loisirs
+217,Cesson-Sévigné (Cormier) -> Rennes (Joliot-Curie),Cormier
+218,Pacé (Centre scolaire Pacé) -> Saint-Gilles (Ile des Bois),Centre scolaire Pacé
+81,Rennes (République) -> Pacé -> Saint-Gilles -> Clayes -> Romillé (Romillé Collège),République
+81,Romillé (Romillé Collège) -> Clayes -> Saint-Gilles -> Pacé -> Rennes (Villejean-Université) via Ile des Bois,Romillé Collège
+91,Noyal-Châtillon-sur-Seiche (Petite Saudrais) -> Chartres-de-Bretagne -> Bruz (Pont-Réan),Petite Saudrais
+91,Bruz (Pont-Réan) -> Bruz (Bruz Centre),Pont-Réan
+N1,Rennes (République) -> Rennes (Clos Courtel),République
+N1,Rennes (Kennedy Guyenne) -> Rennes (République),Kennedy Guyenne
+N1,Rennes (Kennedy Guyenne) -> Rennes (Clos Courtel),Kennedy Guyenne
+150ex,Rennes (République) -> Thorigné-Fouillard (Landelles),République
+154ex,Cintré (Chêne Vert) -> Le Rheu -> Rennes (République),Chêne Vert
+155ex,Mordelles (Mordelles Pâtis) -> Rennes (République),Mordelles Pâtis
+156ex,Rennes (République) -> Chavagne (Croix Blanche),République
+156ex,Chavagne (Croix Blanche) -> Rennes (République),Croix Blanche
+Ker-Lannex,Bruz (Schuman) -> Rennes (République),Schuman
+220,Acigné (Timonière) -> Cesson-Sévigné (Chalotais),Timonière
+223,Saint-Grégoire (Jean-Paul II) -> Betton (Gentilhommière),Jean-Paul II
+227,Vezin-le-Coquet (Lion d'Or) -> Pacé (Centre scolaire Pacé),Lion d'Or
+231,Bruz (Anita Conti) -> Pont-Péan (Bois Esnault),Anita Conti
+231,Bruz (Anita Conti) -> Pont-Péan -> Laillé (Gingouillère),Anita Conti
+233,Bourgbarré (Centre de Loisirs) -> Orgères -> Saint-Erblon (Collège Saint-Paul),Centre de Loisirs
+234,Laillé (Orée du Bois) -> Orgères (Collège Récipon),Orée du Bois
+77,Rennes (République) -> Pacé -> Parthenay-de-Bretagne (Parthenay Fontaine),République
+78,Betton (Betton Centre) -> Saint-Grégoire -> Rennes (Villejean-Université),Betton Centre
+74,Bourgbarré (Centre de Loisirs) -> Orgères -> Rennes (Henri Fréville),Centre de Loisirs
+74,Bourgbarré (Sept Fours) -> Orgères -> Rennes (Henri Fréville),Sept Fours
+238,Le Rheu (Collège Brassens) -> L'Hermitage -> La Chapelle-Thouarault (Ville aux Archers),Collège Brassens
+240,Saint-Gilles (Ile des Bois) -> L'Hermitage -> Le Rheu (Lycée Monod),Ile des Bois
+242,Miniac-sous-Bécherel (Miniac Eglise) -> Bécherel -> La Chapelle-Chaussée -> Romillé (Romillé Collège),Miniac Eglise
+74,Orgères (Surcouf) -> Bourgbarré (Moc Souris),Surcouf
+237,Le Rheu (Collège Brassens) -> Le Rheu (Haut Plessis),Collège Brassens
+Ts61,Cesson-Sévigné (Prieuré Forge) -> Cesson-Sévigné (Cesson Piscine),Forge
+Ts66,Le Rheu (Collège Brassens) -> Saint-Gilles (Ile des Bois),Collège Brassens
+RPI-1,Bécherel (Bécherel Ecole) -> Bécherel (Bécherel Ecole),
+Ts71,Romillé (Hatais Ville Greffier) -> Romillé (Romillé Collège),Hatais Ville Greffier
+Ts75,La Chapelle-Chaussée (Chapelle-Chaussée) -> Saint-Grégoire (Jean-Paul II),Chapelle-Chaussée
+Ts75,Saint-Grégoire (Jean-Paul II) -> La Chapelle-Chaussée (Chapelle-Chaussée),Jean-Paul II
+API,Rennes (République) -> Rennes (Etangs d'Apigné),République Pré Botté
+TTZ,Noyal-Châtillon-sur-Seiche (Touche Tizon) -> Rennes (Henri Fréville),Touche Tizon
+Ts32,Mordelles (Collège St-Yves) -> La Chapelle-Thouarault (Pont Harel),Saint-Yves
+Ts33,Le Rheu (Lycée Monod) -> Mordelles (Collège St-Yves),Lycée Monod
+Ts37,Mordelles (Collège St-Yves) -> La Chapelle-Thouarault (Eglise),Saint-Yves
+Ts41,Pacé (Centre scolaire Pacé) -> La Chapelle-des-Fougeretz (Chêne aux dames),Centre scolaire Pacé
+242,Romillé (Romillé Collège) -> La Chapelle-Chaussée -> Bécherel -> Miniac-sous-Bécherel (Miniac Eglise),Romillé Collège
+244,Chartres-de-Bretagne (Collège Pôle Sud) -> Pont-Péan (Bois Esnault),Collège Pôle Sud
+Ts2,Saint-Erblon (Douazel) -> Bruz (Aire du 8 Mai),Douazel
+Ts6,Laillé (Bossardière) -> Bruz (Aire du 8 Mai),Bossardière
+Ts11,Bruz (Anita Conti) -> Laillé (Château d'Eau),Anita Conti
+C1,Cesson-Sévigné (Champs Blancs) -> Rennes -> Chantepie (Rosa Parks),Champs Blancs
+C1,Rennes (Gares) -> Cesson-Sévigné (Champs Blancs),Gares
+C1,Chantepie (Rosa Parks) -> Rennes -> Cesson-Sévigné (Champs Blancs),Rosa Parks
+C2,Rennes (Haut Sancé) -> Saint-Grégoire (Champ Daguet),Haut Sancé
+C4,Rennes (Plaine de Baud) -> Saint-Grégoire (Grand Quartier),Plaine de Baud
+53,Rennes (République) -> Vezin-le-Coquet -> L'Hermitage -> La Chapelle-Thouarault -> Cintré -> Le Verger (Le Verger Eglise),République Pré Botté
+53,La Chapelle-Thouarault (Ville aux Archers) -> L'Hermitage -> Vezin-le-Coquet -> Rennes (République) via CAT La Hautière,Ville aux Archers
+54,Cintré (Chêne Vert) -> Le Rheu (L'Autre Lieu),Chêne Vert
+34,Chantepie (Rosa Parks) -> Cesson-Sévigné -> Rennes (ZA Saint-Sulpice),Rosa Parks
+35,Cesson-Sévigné (Cesson Gare) -> Cesson-Sévigné (Champs Blancs),Cesson Gare
+36,Saint-Grégoire (Edonia) -> Rennes (Place Hoche),Edonia
+37,Saint-Jacques-de-la-Lande (Morinais) -> Rennes (Henri Fréville),Morinais
+50,Rennes (République) -> Thorigné-Fouillard (Landelles),République
+51,Betton (Champ Devant) -> Rennes (Place Hoche),Champ Devant
+51,Rennes (Place Hoche) -> Betton (Champ Devant),Hoche
+52,La Chapelle-des-Fougeretz (Besneraie) -> Montgermont -> Rennes -> Pacé -> Saint-Gilles (Ile des Bois),Besneraie
+52,Gévezé (Cheval Blanc) ->  La Chapelle-des-Fougeretz -> Montgermont -> Rennes (Villejean-Université),Cheval Blanc
+52,Rennes (Villejean-Université) -> Montgermont -> La Chapelle-des-Fougeretz -> Gévezé (Cheval Blanc),Villejean-Université
+52,Saint-Gilles (Ile des Bois) -> Pacé -> Rennes -> Montgermont -> La Chapelle-des-Fougeretz (Besneraie) via Quatre Vents,Ile des Bois
+C4,Rennes (ZA Saint-Sulpice) -> Rennes (République),ZA Saint-Sulpice
+11,Rennes (La Poterie) -> Rennes (Stade Rennais),La Poterie
+11,Vezin-le-Coquet (ZI Ouest) -> Rennes (Saint-Saëns),ZI Ouest
+13,Chantepie (Cucé) -> Rennes -> Saint-Jacques-de-la-Lande (Gautrais),Cucé
+13,Rennes (Cleunay) -> Chantepie (Cucé),Cleunay
+31,Rennes (Villejean-Churchill) -> Cesson-Sévigné (Base de Loisirs),Villejean-Churchill
+57,Rennes (République) -> Saint-Jacques-de-la-Lande -> Bruz (Bruz Centre),République
+59,Rennes (Henri Fréville) -> Bruz (Bruz Gare),Henri Fréville
+61,Saint-Erblon (Parc d'Activités) -> Noyal-Châtillon-sur-Seiche -> Rennes (Henri Fréville),Parc d'Activités
+62,Rennes (République) -> Vern-sur-Seiche -> Nouvoitou -> Saint-Armel -> Corps-Nuds (Corps-Nuds Gare),République
+62,Rennes (La Poterie) -> Vern-sur-Seiche -> Nouvoitou (Parc des Sports),
+32,Rennes (Clos Courtel) -> Rennes (Triangle),Clos Courtel
+34,Rennes (ZA Saint-Sulpice) -> Cesson-Sévigné -> Chantepie (Rosa Parks),ZA Saint-Sulpice
+64,Rennes (République) -> Acigné (Timonière),République
+65,Rennes (Villejean-Université) -> Pacé -> Parthenay-de-Bretagne (Parthenay Fontaine),Villejean-Université
+63,Rennes (Gares) -> Bruz (Pont-Réan),Gares
+213,Bourgbarré (Sept Fours) -> Orgères -> Rennes (Coubertin),Sept Fours
+214,Cesson-Sévigné (Cesson Gare) -> Cesson-Sévigné (Lycée Ozanam),Cesson Gare
+215,Rennes (Villejean-Université) -> Rennes (Lycée Chateaubriand),Villejean-Université
+216,Rennes (Joliot-Curie) -> Cesson-Sévigné (Stade Dézerseul),Joliot-Curie
+217,Rennes (Joliot-Curie) -> Cesson-Sévigné (Cormier),Joliot-Curie
+220,Acigné (Botrel) -> Cesson-Sévigné (Chalotais),
+220,Cesson-Sévigné (Lycée Sévigné) -> Acigné (Timonière),Lycée Sévigné
+221,Cesson-Sévigné (Lycée Sévigné) -> Thorigné-Fouillard (Portail),Lycée Sévigné
+223,Saint-Grégoire (Jean-Paul II) -> Betton -> Chevaigné (Pommiers),Jean-Paul II
+224,Saint-Grégoire (Jean-Paul II) -> La Chapelle-des-Fougeretz (Besneraie),Jean-Paul II
+227,Saint-Gilles (Ile des Bois) -> Vezin-le-Coquet -> Pacé (Centre scolaire Pacé),Ile des Bois
+229,Bruz (Anita Conti) -> Chavagne (Croix Blanche) via Cicé Blossac,Anita Conti
+231,Bruz (Brossolette) -> Pont-Péan (Bois Esnault),Brossolette
+234,Orgères (Collège Récipon) -> Laillé (Gingouillère),Collège Récipon
+234,Laillé (Gingouillère) -> Orgères (Collège Récipon),Gingouillère
+237,Le Rheu (Collège Brassens) -> Chavagne (Croix Blanche),Collège Brassens
+238,La Chapelle-Thouarault (Ville aux Archers) -> L'Hermitage -> Le Rheu (Lycée Monod),Ville aux Archers
+240,Saint-Gilles (Ile des Bois) -> L'Hermitage -> Le Rheu (Lycée Monod) via Vigne,Ile des Bois
+240,Le Rheu (Collège Brassens) -> L'Hermitage -> Saint-Gilles (Ile des Bois) via Vigne,Collège Brassens
+241,Chavagne (Alfred de Musset) -> Mordelles (Collège St-Yves),Alfred de Musset
+243,Pacé (Pie Neuve) -> Montgermont -> Saint-Grégoire (Jean-Paul II),Pie Neuve
+244,Pont-Péan (Bois Esnault) -> Chartres-de-Bretagne (Collège Pôle Sud),Bois Esnault
+Ts3,Noyal-Châtillon-sur-Seiche (Bray) -> Bruz (Aire du 8 Mai),Bray
+Ts5,Bruz (Aire du 8 Mai) -> Bourgbarré (Moc Souris),Aire du 8 Mai
+Ts9,Laillé (Couais) -> Bruz (Anita Conti),Couais
+Ts11,Laillé (Château d'eau) -> Bruz (Anita Conti),Château d'Eau
+Ts12,Bruz (Anita Conti) -> Laillé (Laillé Eglise),Anita Conti
+Ts33,Mordelles (Collège St-Yves) -> Le Rheu (Lycée Monod),Saint-Yves
+Ts35,Le Verger (Breil) -> Mordelles (Collège St-Yves),Breil
+Ts35,Le Verger (La Lande Basse) -> Mordelles (Collège St-Yves),La Lande Basse
+Ts36,Mordelles (Morvan Lebesque) -> Cintré (Saint-Roch),Morvan Lebesque
+Ts41,La Chapelle-des-Fougeretz (Izé) -> Pacé (Centre scolaire Pacé),Izé
+Ts43,Pacé (Centre scolaire Pacé) -> Saint-Gilles (Etang de la Motte),Centre scolaire Pacé
+73,Rennes (La Poterie) -> Vern-sur-Seiche -> Saint-Armel -> Corps-Nuds (Corps-Nuds Gare) via Champ Martin,La Poterie
+74,Rennes (Henri Fréville) -> Bourgbarré (Sept Fours),Henri Fréville
+75,Nouvoitou (Parc des Sports) -> Vern-sur-Seiche -> Rennes (La Poterie),Parc des Sports
+75,Rennes (La Poterie) -> Vern-sur-Seiche -> Nouvoitou (Parc des Sports),La Poterie
+75,Vern-sur-Seiche (La Poste) -> Nouvoitou (Parc des Sports),La Poste
+76,Rennes (Lycée Basch) -> Vezin-le-Coquet -> Le Rheu -> Mordelles (Mordelles Pâtis),Lycée Basch
+76,Mordelles (Mordelles Pâtis) -> Le Rheu -> Vezin-le-Coquet -> Rennes (Lycée Basch),Mordelles Pâtis
+79,Laillé (Gingouillère) -> Pont-Péan -> Rennes (Henri Fréville),Gingouillère
+91,Bruz (Lavoisier) -> Bruz (Cicé Blossac),Lavoisier
+91,Noyal-Châtillon-sur-Seiche (Petite Saudrais) -> Chartres-de-Bretagne -> Bruz (Cicé Blossac),Petite Saudrais
+94,Betton (Betton Centre) -> Chevaigné -> Saint-Sulpice-la-Forêt (Cropy),Betton Centre
+N1,Rennes (République) -> Rennes (Kennedy Guyenne),République
+N2,Rennes (Saint-Exupéry) -> Rennes (Gayeulles),Saint-Exupéry
+150ex,Thorigné-Fouillard (Landelles) -> Rennes (République),Landelles
+152ex,Saint-Gilles (Ile des Bois) -> Pacé -> Rennes (Lycée Basch),Ile des Bois
+153ex,Rennes (République) -> Vezin-le-Coquet -> L'Hermitage -> La Chapelle-Thouarault (Ville aux Archers),République Pré Botté
+153ex,La Chapelle-Thouarault (Ville aux Archers) -> L'Hermitage -> Vezin-le-Coquet -> Rennes (République),Ville aux Archers
+172ex,Chartres-de-Bretagne (Parc de Loisirs) -> Rennes (Henri Fréville),Parc de Loisirs
+65,Pacé (Pacé Cimetière) -> Parthenay-de-Bretagne (Parthenay Fontaine),Pacé Cimetière
+65,Parthenay-de-Bretagne (Parthenay Fontaine) -> Pacé -> Rennes (Lycée Basch),Parthenay Fontaine
+67,Brécé (Anjou) -> Rennes (République) via Rigourdière,Anjou
+70,Saint-Sulpice-la-Forêt (Cropy) -> Rennes (Place Hoche),Cropy
+70,Rennes (Place Hoche) -> Saint-Sulpice-la-Forêt (Cropy),Hoche
+72,Rennes (Henri Fréville) -> Chartres-de-Bretagne -> Pont-Péan (Bois Esnault) via Touche Tizon et Mivoie,Henri Fréville
+Ts45,Gévezé (Huchetais) -> Pacé (Centre scolaire Pacé),Huchetais
+Ts45,Pacé (Centre scolaire Pacé) -> Gévezé (Huchetais),Centre scolaire Pacé
+Ts46,Pacé (Bas Sommier) -> Pacé (Centre scolaire Pacé),Bas Sommier
+Ts54,Orgères (Collège Récipon) -> Saint-Erblon (Souillard),Collège Récipon
+Ts55,Orgères (Collège Récipon) -> Laillé (Les Vallées),Collège Récipon
+Ts55,Laillé (Le Cleux) -> Orgères (Collège Récipon),Le Cleux
+Ts67,Le Rheu (Collège Brassens) -> Saint-Gilles (Haute Fresnais),Collège Brassens
+Ts71,Romillé (Romillé Collège) -> Romillé (Hatais Ville Greffier),Romillé Collège
+C5,Rennes (Patton) -> Rennes (Lycée Bréquigny),Patton
+9,Rennes (Saint-Laurent) -> Rennes (Cleunay),Saint-Laurent
+11,Rennes (République) -> Brécé (Anjou),République
+11,Rennes (Roazhon Park) -> Rennes (Saint-Saëns),Roazhon Park
+12,Rennes (La Poterie) -> Saint-Grégoire (Grand Quartier),La Poterie
+13,Saint-Jacques-de-la-Lande (Gautrais) -> Rennes -> Chantepie (Cucé),Gautrais
+37,Saint-Jacques-de-la-Lande (Morinais) -> Rennes (Henri Fréville),Morinais
+44,Rennes (Joliot-Curie) -> Rennes (République),Joliot-Curie
+50,Thorigné-Fouillard (Landelles) -> Rennes (République),Landelles
+50,Rennes (République) -> Thorigné-Fouillard (Landelles) via Placis Vert,République
+51,Rennes (République) -> Betton -> Saint-Sulpice-la-Forêt (Cropy),République Pré Botté
+C2,Rennes (Haut Sancé) -> Saint-Grégoire (Champ Daguet) via Pontay,Haut Sancé
+37,Rennes (Henri Fréville) -> Saint-Jacques-de-la-Lande (Morinais),Henri Fréville
+54,Chavagne (Croix Blanche) -> Mordelles -> Le Rheu -> Rennes (Charles de Gaulle),Croix Blanche
+56,Chavagne (Croix Blanche) -> Rennes (Charles de Gaulle),Croix Blanche
+57,Bruz (Bruz Centre) -> Saint-Jacques-de-la-Lande -> Rennes (République) via Porte de Ker-Lann,Bruz Centre
+59,Bruz (Bruz Gare) -> Rennes (Henri Fréville),Bruz Gare
+61,Rennes (République) -> Noyal-Châtillon-sur-Seiche -> Saint-Erblon -> Orgères -> Bourgbarré (Centre de Loisirs),République
+62,Rennes (La Poterie) -> Vern-sur-Seiche (Croix Malinge),La Poterie
+62,Nouvoitou (Parc des Sports) -> Vern-sur-Seiche -> Rennes (La Poterie),Parc des Sports
+63,Rennes (Gares) -> Noyal-Châtillon-sur-Seiche (Janais),Gares
+64,Acigné (Timonière) -> Rennes (République),Timonière
+65,Pacé (Pont Amelin) -> Rennes (Lycée Basch),Pont Amelin
+68,Rennes (Villejean-Université) -> Gévezé (Cheval Blanc),Villejean-Université
+71,Rennes (Place Hoche) -> Chevaigné (Pommiers),Hoche
+73,Rennes (La Poterie) -> Vern-sur-Seiche -> Saint-Armel -> Corps-Nuds (Corps-Nuds Gare),La Poterie
+77,Rennes (Villejean-Université) -> Pacé (Pâtis Roussel),Villejean-Université
+77,Rennes (Lycée Basch) -> Rennes (Villejean-Université),Lycée Basch
+81,Rennes (Villejean-Université) -> Clayes -> Romillé (Romillé Collège),Villejean-Université
+54,Rennes (Charles de Gaulle) -> Le Rheu (Lycée Monod),Lycée Zola
+91,Bruz (Cicé Blossac) -> Chartres-de-Bretagne -> Noyal-Châtillon-sur-Seiche (Petite Saudrais),Cicé Blossac
+94,Saint-Sulpice-la-Forêt (Cropy) -> Chevaigné -> Betton (Betton Centre),Cropy
+N1,Rennes (Clos Courtel) -> Rennes (Kennedy Guyenne),Clos Courtel
+N2,Rennes (Gayeulles) -> Rennes (La Poterie),Gayeulles
+81,Romillé (Romillé Collège) -> Clayes -> Rennes (Villejean-Université),Romillé Collège
+52,Saint-Gilles (Ile des Bois) -> Rennes (Villejean-Université),Ile des Bois
+53,Rennes (République) -> Vezin-le-Coquet -> L'Hermitage -> La Chapelle-Thouarault (Ville aux Archers),République Pré Botté
+82,Miniac-sous-Bécherel (Miniac Eglise) ->  Bécherel -> La Chapelle-Chaussée -> Langan -> Romillé -> Rennes (Villejean-Université),Miniac Eglise
+N2,Rennes (Gayeulles) -> Rennes (République),Gayeulles
+Ker-Lannex,Rennes (République) -> Bruz (Schuman),République Pré Botté
+91,Bruz (Cicé Blossac) -> Bruz (Lavoisier),Cicé Blossac
+164ex,Acigné (Timonière) -> Rennes (République),Timonière
+167ex,Brécé (Anjou) -> Cesson-Sévigné -> Rennes (République),Anjou
+167ex,Rennes (République) -> Cesson-Sévigné -> Brécé (Anjou),République
+173ex,Rennes (La Poterie) -> Corps-Nuds (Corps-Nuds Gare),La Poterie
+200,Rennes (Assomption) -> Acigné (Timonière),Assomption
+201,Thorigné-Fouillard (Landelles) -> Rennes (Joliot-Curie),Landelles
+201,Thorigné-Fouillard (Landelles) -> Rennes (Assomption) via Joliot-Curie,Landelles
+202,Rennes (Assomption) -> Betton (Champ Devant),Assomption
+206,Cesson-Sévigné (Métairies Chalotais) -> Rennes (Joliot-Curie),Métairies Chalotais
+206,Rennes (Joliot-Curie) -> Cesson-Sévigné (Métairies Chalotais),Joliot-Curie
+208,Saint-Grégoire (MFR Rabinardières) -> Saint-Grégoire (Uttenreuth),MFR Rabinardières
+208,Rennes (Gares) -> Saint-Grégoire (MFR Rabinardières),Gares
+208,Saint-Grégoire (Uttenreuth) -> Saint-Grégoire (MFR Rabinardières),Uttenreuth
+218,Saint-Gilles (Ile des Bois) -> Pacé (Centre scolaire Pacé),Ile des Bois
+220,Cesson-Sévigné (Lycée Sévigné) -> Acigné (Timonière) via Botrel,Lycée Sévigné
+221,Cesson-Sévigné (Lycée Sévigné) -> Thorigné-Fouillard -> Cesson-Sévigné (Château de Vaux),Lycée Sévigné
+222,Chevaigné (Pommiers) -> Betton (Champ Devant),Pommiers
+223,Betton (Gentilhommière) -> Saint-Grégoire (Jean-Paul II),Gentilhommière
+226,La Chapelle-des-Fougeretz (Métairie) -> Pacé (Centre scolaire Pacé),Métairie
+226,La Chapelle-des-Fougeretz (Viennais) -> Pacé (Centre scolaire Pacé),Viennais
+227,Pacé (Centre scolaire Pacé) -> Vezin-le-Coquet -> Saint-Gilles (Ile des Bois),Centre scolaire Pacé
+229,Bruz (Anita Conti) -> Chavagne (Croix Blanche),Anita Conti
+229,Chavagne (Croix Blanche) -> Bruz (Anita Conti),Croix Blanche
+231,Bruz (Aire du 8 Mai) -> Pont-Péan (Bois Esnault),Aire du 8 Mai
+232,Saint-Erblon (Leuzières) -> Orgères (Collège Récipon),Leuzières
+232,Orgères (Collège Récipon) -> Saint-Erblon (Leuzières),Collège Récipon
+237,Le Rheu (Lycée Monod) -> Chavagne (Croix Blanche),Lycée Monod
+241,Chavagne (Croix Blanche) -> Mordelles (Collège St-Yves),Croix Blanche
+Ts1,Noyal-Châtillon-sur-Seiche (Noyal La Touche) -> Bruz (Aire du 8 Mai),Noyal La Touche
+Ts2,Bruz (Aire du 8 Mai) -> Saint-Erblon (Douazel),Aire du 8 Mai
+Ts4,Bourgbarré (La Fretais) -> Bruz (Anita Conti),La Fretais
+Ts6,Bruz (Aire du 8 Mai) -> Laillé (Bossardière),Aire du 8 Mai
+Ts7,Bourgbarré (Les Cruaux) -> Bruz (Aire du 8 Mai),Les Cruaux
+Ts8,Bruz (Brossolette) -> Mordelles (Mordelles Pâtis),Brossolette
+Ts44,Gévezé (Cheval Blanc) -> Pacé (Centre scolaire Pacé),Cheval Blanc
+Ts53,Saint-Erblon (Collège Saint-Paul) -> Laillé (Bossardière),Collège Saint-Paul
+Ts54,Saint-Erblon (Souillard) -> Orgères (Collège Récipon),Souillard
+Ts66,Saint-Gilles (Ile des Bois) -> Le Rheu (Collège Brassens),Ile des Bois
+Ts67,Le Rheu (Collège Brassens) -> Saint-Gilles (Haute Fresnais),Collège Brassens
+Ts82,Saint-Erblon (Leuzières) -> Chartres-de-Bretagne (Collège Pôle Sud),Leuzières
+Bus relais,Rennes (Cours Kennedy) -> Rennes (La Poterie),Cours Kennedy
+Bus relais,Rennes (La Poterie) -> Rennes (Cours Kennedy),La Poterie
+Ts12,Bruz (Roche Marguerite) -> Bruz (Anita Conti),Roche Marguerite
+Ts13,Chartres-de-Bretagne (Vieux Bourg) -> Bruz (Aire du 8 Mai),Vieux Bourg
+Ts32,La Chapelle-Thouarault (Pont Harel) -> Mordelles (Collège St-Yves),Pont Harel
+Ts35,Mordelles (Morvan Lebesque) -> Le Verger (Breil),Morvan Lebesque
+Ts10,Bruz (Anita Conti) -> Laillé (Les Vallées),Anita Conti
+Ts67,Saint-Gilles (Haute Fresnais) -> Le Rheu (Collège Brassens),Haute Fresnais
+Ts44,Pacé (Centre scolaire Pacé) -> Gévezé (Cheval Blanc),Centre scolaire Pacé
+Ts51,Bourgbarré (Les Cruaux) -> Orgères (Collège Récipon),Les Cruaux
+Ts51,Orgères (Collège Récipon) -> Bourgbarré (La Fretais),Collège Récipon
+Ts52,Noyal-Châtillon-sur-Seiche (Cours d'A Haut) -> Saint-Erblon (Collège Saint-Paul),Cours d'A Haut
+161ex,Bourgbarré (Centre de Loisirs) -> Saint-Erblon -> Noyal-Châtillon-sur-Seiche -> Rennes (Henri Fréville),Centre de Loisirs
+164ex,Rennes (République) -> Acigné (Timonière),République
+TTZ,Rennes (Longs Champs) -> Noyal-Châtillon-sur-Seiche (Touche Tizon),Longs Champs
+201,Rennes (Joliot-Curie) -> Thorigné-Fouillard (Landelles),Joliot-Curie
+202,Betton (Champ Devant) -> Rennes (Assomption),Champ Devant
+203,Rennes (Gares) -> Rennes (Joliot-Curie),
+205,Rennes (Lycée St-Exupéry) -> Rennes (Villejean-Université),Lande du Breil
+207,Rennes (République) -> Cesson-Sévigné (Lycée Ozanam),République Pré Botté
+212,Rennes (Coubertin) -> Saint-Erblon (Champ Mulon),
+213,Rennes (Coubertin) -> Bourgbarré -> Orgères (Télégraphe),Coubertin
